@@ -24,6 +24,15 @@ export default {
         url: '/examples/SynchronizedAreaChart',
       }],
     }, {
+      name: 'syncMethod',
+      type: '\'index\' | \'value\' | Function',
+      defaultVal: '\'index\'',
+      isOptional: true,
+      desc: {
+        'en-US': 'The method used to sync two categorical charts (LineChart, AreaChart, BarChart, ComposedChart) with the same syncId.',
+        'zh-CN': '该方法用于同步两个具有相同syncId的分类图表（LineChart, AreaChart, BarChart, ComposedChart）。',
+      },
+    }, {
       name: 'width',
       type: 'Number',
       defaultVal: 'undefined',
