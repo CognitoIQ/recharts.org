@@ -23,6 +23,14 @@ export default {
         url: '/examples/SynchronizedAreaChart',
       }],
     }, {
+      name: 'syncMethod',
+      type: '\'index\' | \'value\' | Function',
+      defaultVal: '\'index\'',
+      isOptional: true,
+      desc: {
+        'en-US': 'The method used to sync two categorical charts (LineChart, AreaChart, BarChart, ComposedChart) that have the same syncId.',
+      },
+    }, {
       name: 'width',
       type: 'Number',
       defaultVal: 'undefined',
