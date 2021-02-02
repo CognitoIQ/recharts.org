@@ -29,7 +29,7 @@ export default {
       defaultVal: '\'index\'',
       isOptional: true,
       desc: {
-        'en-US': 'The method used to sync two categorical charts (LineChart, AreaChart, BarChart, ComposedChart) that have the same syncId.',
+        'en-US': 'The method used to sync two categorical charts (LineChart, AreaChart, BarChart, ComposedChart) with the same syncId.',
       },
     }, {
       name: 'width',
